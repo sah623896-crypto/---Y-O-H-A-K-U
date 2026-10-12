@@ -220,6 +220,12 @@
 
   // Image gallery and keyboard-accessible lightbox
   const media=[
+    ['assets/cover.webp','MAIN COVER — 쿠제 토오루 대표 표지','향수 공방을 배경으로 한 쿠제 토오루의 메인 표지 이미지'],
+    ['assets/icon.webp','ICON PORTRAIT — 쿠제 토오루 인장','쿠제 토오루의 클로즈업 인장 이미지'],
+    ['assets/svc1.webp','ATELIER BREAK — SERVICE 01','공방 의자에 기대어 앉아 있는 토오루 서비스 이미지'],
+    ['assets/svc2.webp','OUTSIDE THE CITY — SERVICE 02','야외 난간에 기대어 있는 토오루 서비스 이미지'],
+    ['assets/svc3.webp','QUIET LOUNGE — SERVICE 03','실내 소파에 기대어 앉은 토오루 서비스 이미지'],
+    ['assets/svc4.webp','AFTER HOURS — SERVICE 04','부드러운 조명 아래 붉어진 얼굴의 토오루 서비스 이미지'],
     ['assets/yohaku-main.webp','THE FIRST NOTE — 향기가 시작되는 자리','녹색 향수병과 조향 노트, 열쇠와 흰 꽃'],
     ['assets/yohaku-mystery.webp','THE ERASED NAME — 지워진 이름의 계보','지워진 가문 기록과 회중시계, 파란 아이리스'],
     ['assets/yohaku-memory.webp','THE UNFINISHED SUMMER — 완성되지 못한 약속','미완성 향수와 열린 노트, 흰 꽃']
