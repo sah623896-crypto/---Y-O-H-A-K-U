@@ -9,7 +9,8 @@
 - `assets/app.js` — 검색, 필터, 펼치기, 복사, USER 설정 초안 작성, 이미지 확대, 테마 전환
 - `assets/lore.js` — **일반 L 로어 56개만 수록**. S 비밀 로어와 A 성인 전용 로어는 포함하지 않습니다.
 - `assets/cover.webp` — 토오루 공식 표지(메인 첫 화면 및 갤러리)
-- `assets/icon.webp` — 토오루 인장(소개 및 전용 프로필 카드)
+- `assets/icon.webp` — 토오루 공식 인장(첫 번째 TORU 소개 카드 및 갤러리)
+- `assets/dossier.webp` — 두 번째 토오루 인물 기록 카드의 별도 측면 이미지
 - `assets/svc1.webp` ~ `assets/svc4.webp` — 네 장의 서비스 이미지(원본 순서 유지)
 - `assets/yohaku-main.webp` — 오브제 이미지 01
 - `assets/yohaku-mystery.webp` — 사용자 제공 이미지 02
@@ -21,7 +22,7 @@
 1. GitHub에서 새 **Public** 저장소를 만듭니다. 예: `yohaku-guide`.
 2. 압축을 풀어 **`index.html`과 `assets` 폴더가 저장소 최상위에 위치하도록** 업로드합니다. ZIP 파일 자체를 저장소에 올리는 게 아닙니다.
 3. 저장소 **Settings → Pages → Build and deployment**에서 `Deploy from a branch`, `main`, `/(root)`를 선택해 저장합니다.
-4. 배포 후 주소는 보통 `https://사용자명.github.io/yohaku-guide/` 형태입니다. 실제 주소는 저장소 설정에서 확인하세요.
+4. 현재 사용 중인 배포 주소: `https://sah623896-crypto.github.io/---Y-O-H-A-K-U/` (저장소 페이지 최상위에 업데이트 파일을 덮어쓰기).
 
 현재 사이트는 HTTPS 호스팅과 로컬 `index.html` 열기에서 모두 기본 기능을 사용할 수 있습니다. 폰트는 Google Fonts에 접근하지 못할 경우 기기 기본 폰트로 대체됩니다.
 
@@ -47,3 +48,7 @@
 - 상황 이미지 총 100장 안내: 일반 60장(공방·사복·유카타 각 20), 성인 HL 40장. 별도 비주얼은 표지·인장·서비스컷 4장.
 - 독립된 인트로 2종: 2026.06.12 14:00 / 18:40. 상세 원고는 `docs/intro-01.md`, `docs/intro-02.md`.
 - `PLAY GUIDE`에서 인트로 펼치기 및 전체 텍스트 복사 기능 제공.
+
+## 이번 수정
+- 첫 번째 TORU 소개의 인장은 그대로 유지하고, 두 번째 CHARACTER DOSSIER 사진 한 장만 `assets/dossier.webp`로 교체했습니다.
+- 기존 세계관, 공개 로어 56개, 인트로 2종, 가족, USER 페르소나 제작, 서비스 이미지 4장, 오브제 3장과 검색/복사/확대 기능은 보존했습니다.
